@@ -1,0 +1,41 @@
+{
+  "name": "osulazer.js",
+  "version": "0.0.1",
+  "description": "An osu!lazer library made for bots.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "pnpm build",
+    "test": "pnpm build && node examples/test.js"
+  },
+  "keywords": [
+    "osu",
+    "osuv2",
+    "osulazer",
+    "osu!lazer",
+    "osu!v2",
+    "osu!(lazer)",
+    "osu!(lazer",
+    "osu!(v2)",
+    "osu!",
+    "osu!v2)",
+    "osu!(v2",
+    "osu!lazer)"
+  ],
+  "author": "Befaci",
+  "license": "MIT",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.5.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "eslint-plugin-prettier": "^5.5.6",
+    "prettier": "^3.8.3",
+    "typescript": "^6.0.3"
+  }
+}
