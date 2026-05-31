@@ -5,6 +5,7 @@ export default {
     BaseURL,
     SRBaseURL, // 'signalr base url' it means
 
+    RefereeURL: SRBaseURL+"referee",
     SpectatorURL: SRBaseURL+"spectator",
     MpURL: SRBaseURL+"multiplayer",
     MdURL: SRBaseURL+"metadata",
